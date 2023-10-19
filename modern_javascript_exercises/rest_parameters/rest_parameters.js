@@ -2,8 +2,7 @@
 
 // Add rest parameters here!
 export function add(...nums) {
-  const result = nums.reduce((total, num) => total + num, 0);
-  return result;
+  return nums.reduce((total, num) => total + num, 0);
 }
 
 add(1, 2, 3, 4, 5);
